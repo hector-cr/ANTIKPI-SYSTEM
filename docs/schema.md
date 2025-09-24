@@ -1,5 +1,4 @@
 # Esquema HU-001 — Atributos, Colecciones y Clases
-
 ## 1) Colecciones Firestore
 ### `reportSchedules/{scheduleId}`
 ```json
@@ -45,10 +44,10 @@ export interface ReportSchedule {
   ownerUid: string;
   active: boolean;
   frequency: Frequency;
-  timeOfDay: string;      // "HH:mm"
-  dayOfWeek?: number;     // 1..7 si WEEKLY
-  dayOfMonth?: number;    // 1..28 si MONTHLY
-  timezone: string;       // "America/Mexico_City"
+  timeOfDay: string;      
+  dayOfWeek?: number;     
+  dayOfMonth?: number;    
+  timezone: string;      
   kpiParams: Record<string, any>;
   createdAt: Date;
   lastRunKey?: string | null;
