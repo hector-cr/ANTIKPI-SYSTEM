@@ -18,7 +18,7 @@
 }
 ```
 
-### `reportExecutions/{executionId}`
+### "informe Ejecuciones"
 ```json
 {
   "ownerUid": "UID",
@@ -35,7 +35,7 @@
 }
 ```
 
-## 2) Atributos (TypeScript)
+## 2) Atributos
 ```ts
 export type Frequency = "DAILY" | "WEEKLY" | "MONTHLY";
 
