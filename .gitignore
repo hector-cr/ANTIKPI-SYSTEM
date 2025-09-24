@@ -1,0 +1,6 @@
+node_modules
+.env
+.firebase
+.firebase-tools.json
+.DS_Store
+dist
